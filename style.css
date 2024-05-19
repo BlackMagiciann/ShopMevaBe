@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    border: 1px solid blanchedalmond;
+    width: 100%;
+    height: 100%;
+    background-color:  #FFF0F5;
+    
+}
+.header{
+    border: 1px solid blanchedalmond;
+    height: 160px;
+    width: 100%;
+    background-image: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 160px;
+    
+}
+.menu{
+    border: 1px solid blanchedalmond;
+    height: 75px;
+    width: 100%;
+    color: rgb(255, 141, 202) ;
+    background-color: #DDA0DD;
+    padding-left: 30px;
+    padding-top: 5px;
+    padding-bottom: 15px;
+}
+.search-form {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    overflow: hidden; /* Loại bỏ khoảng trống xung quanh nút và input */
+    margin-right: 20px;
+    margin-left: 30px;
+    margin-top: 10px;
+  }
+#search-input {
+    padding: 10px 15px;
+    border: none;
+    width: 355px;
+}
+
+  #search-button {
+    background-color: cornsilk;
+    border: none;
+    color: #77a4ff;
+    border-radius: 0 20px 20px 0; /* Bo tròn chỉ một đầu của nút tìm kiếm */
+    cursor: pointer;
+    padding: 10px 20px;
+    
+  }
+  
+  #search-button i {
+    font-size: 15px;
+  }
+h1{
+    float: left;
+    margin-right: 30px;
+}
+ul.listmenu{
+    list-style: none;
+}
+ul.listmenu li{
+    float: left;
+    margin: 10px;
+} 
+.main{
+    border: 1px solid blanchedalmond;
+    height: auto;
+    width: 100%;
+    display: flex;
+}
+.category-title {
+  display: flex;
+  align-items: center;
+  margin-right: 3px; /* Khoảng cách giữa biểu tượng và nội dung */
+}
+
+.category-title i {
+  font-size: 18px; /* Kích thước của biểu tượng */
+  margin-right: 5px; /* Khoảng cách bên phải của biểu tượng */
+}
+
+/* Thêm bất kỳ kiểu mà bạn muốn cho tiêu đề */
+.category-title h3 {
+  font-size: 16px;
+  color: #333;
+  /* Thêm các thuộc tính CSS khác theo ý bạn */
+}
+
+.sidebar{
+    border: 1px solid blanchedalmond;
+    width: 22%;
+    height: 380px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.custom-list {
+    list-style: disc;
+    margin-left: 20px; 
+    padding-left: 0;
+  }
+  
+  .custom-list li {
+    margin-bottom: 10px; /* Tạo khoảng cách giữa các mục */
+    background-color: #f0f0f0; /* Màu nền của mục */
+    padding: 10px; /* Khoảng cách trong mục */
+    border-radius: 5px; /* Bo tròn viền mục */
+    display: flex;
+    align-items: center;
+  }
+  
+  .custom-list li::before {
+   
+    margin-right: 5px; /* Khoảng cách giữa dấu chấm và nội dung mục */
+    font-weight: bold; /* Đậm cho dấu chấm */
+    font-size: 14px; /* Kích thước của dấu chấm */
+  }
+.maincontent{
+    border: 1px solid blanchedalmond;
+    width: 74%;
+    height: auto;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.num-rows {
+  font-size: 0.8em;
+  color: gray;
+  margin-left: 10px;
+}
+.product-card {
+    position: relative;
+    border: 1px solid #ccc;
+    height: 257px;
+    width: 207px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    transition: transform 0.3s ease; /* Hiệu ứng nổi lên */
+    float: left;
+  }
+  
+  .product-card:hover {
+    transform: scale(1.1); /* Kích thước nổi lên khi di chuột vào */
+    
+  }
+  
+  .product-card img {
+    width: 145px;
+    height: 145px;
+    
+  }
+  
+  .buy-now-button {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 8px 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+.clear{
+    clear: both;
+}

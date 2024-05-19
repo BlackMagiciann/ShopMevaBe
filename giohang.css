@@ -1,0 +1,17 @@
+.mainGH {
+    text-align: center;
+    padding-left: 400px;
+    
+  }
+  
+  .mainGH img {
+    display: block; /* Để tránh khoảng trắng dưới ảnh */
+    margin: 0 auto;
+    margin-left: 50%;
+     /* Để căn giữa ảnh */
+  }
+  
+  .mainGH h4 {
+    margin-top: 10px; /* Khoảng cách giữa ảnh và văn bản */
+  }
+  
